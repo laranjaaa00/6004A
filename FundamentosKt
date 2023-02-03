@@ -1,1 +1,13 @@
-
+fun main() {
+    println("Olá Mundo")
+         println("Eai tudo bem?")   
+         println("Como vai seu dia ?")
+         println("Esta indo muito bem, e o seu ?")
+         println("Esta bem também, obrigado por perguntar!")
+         println("Vou ter que sair agora")
+         println("Mas quando precisar pode dar um salve")
+         println("È nois irmão tmj")
+         println("Vou là agr")
+         println("Até outro dia")
+         println("Flw")
+}
