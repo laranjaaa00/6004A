@@ -11,3 +11,99 @@ fun main() {
          println("Até outro dia")
          println("Flw")
 }
+
+
+
+
+
+fun main() {
+     
+     
+  // Operadors Relacionais
+  // 
+  // São Sinais que auxiliam em comparações entre valores    
+  //       
+  // = -> para definir valores
+  // == -> comparação de igualdade
+  // != -> diferença
+  // > -> maior que...
+  // < -> menor que...
+  //                         
+  // Operadores matematicos 
+  // + -> adição 
+  //  - -> subtração
+  //  * -> multiplicação 
+  //  / -> divisão
+  //  % -> módulo - o resto de uma divisão
+  //  ++ -> adicionais 1 a um valor 
+  //  -- -> subtrai 1 de um valor           
+                 
+  // Condiçoes
+  // if..else -> se..senão
+  // 
+  // Estrutura do if..else simples
+  // 
+  // if(condição){                                                                                                                                                                         
+  // ação a ser executada
+  // }                                                                                                                                                                                                                                                                                                                                                  
+  //
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          
+  var classificado = "Real Madri"                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
+     
+  if(classificado == "Real Madrid"){  
+      println("Real Madri classificado para final, Hala Madrid!!")
+  }else{  
+      println("Barcelona classificado para a final, infeliz mente")
+  }
+  /*}            
+   
+  // if..else composto
+  // 
+  // estrutura:
+  // if(condição)
+  // ação
+  // }else if(condição){
+  // ação
+  // }else{
+  // ação*/
+  /* }    
+              
+  var vidas = 5            
+              
+  if(vidas >= 5){           
+      println("Você está excelente!! Que vida boa!")       
+  }else if(vidas == 4){            
+      println("Você ta muito bem!! pode comer miojo :)") 
+  }else if(vidas == 3){
+      println("Você ta ok, mas pode melhorar")
+  }else if(vidas == 2){
+      println("TA tudo bem aí??")
+  }else if(vidas == 1){
+      println("Ce ta morrendo!! Se cuida cara")
+  }else{
+      println("Você não existe")
+ */ 
+  
+  
+ //Exercício 1 - Faça um programa que verifique dois números e indique
+ //no console, o maior entre eles 
+  
+ //Exercício 2 - Faça um programa que indique no console, se um número
+ //verificado é positivo ou negativo
+ //
+ // .Nos exercícios, devem ser utilizadas pelo menos 1 variável
+ // .Os exercícios devem ser feitos com if..else
+ // .Divirtam-se  
+  
+var sorte = 3
+var chocolate = 7
+
+if(sorvete > chocolate){    
+    println("o número $orvete é maior que $chocolate")
+}else{
+    println("o número $chocolate é maior que $sorvete")
+}
+
+
+
+}
