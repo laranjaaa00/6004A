@@ -203,3 +203,57 @@ if(sorvete > chocolate){
 
 
 }  
+//...................................................................................
+
+
+
+
+
+fun main() {
+    
+    
+    //Exercício 
+    //
+    // Exiba a porcentagem da bateria descarregando a cada linha no console   
+    // Quando a bateria chegar a 15%, deve ser exibida a porcentagem e também
+    // o aviso de bateriadescarregada 
+    // Quando a bateria chegar a 0%, deve ser exibida a porcentagem e também
+    // o aviso de celular desligando usand while ou do..while
+    
+    
+   /*
+        
+          
+    var bateria = 100
+    
+    while(bateria >= 0){
+          println("${bateria}%")
+          when(bateria){
+             15 -> {println("celular descarregando faça algo !")}
+             0 -> {println("celular Desligando, dando tchauzinho")}
+             } 
+       bateria--
+       }
+       */
+/*
+       // for - para...
+       
+        for(churrasco in 0..10){
+            println(churrasco)
+
+        }
+
+*/
+
+
+ // Exercício - Exibir uma tabuada até pelo menos o décimo multiplo de um
+ // número escolhido(que não seja a do 0, do 1, e do 2), utilizando
+ // o laço for
+
+
+for(vezes in 3..300){
+            println()
+        }
+
+
+}
