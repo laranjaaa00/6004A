@@ -257,3 +257,40 @@ for(vezes in 3..300){
 
 
 }
+//............................................................................................................
+
+
+fun main(){ 
+/*
+for(i in 1..10){
+    println(i*50)
+}
+
+*/
+
+
+//repeat -> repita
+//
+//repetir uma determinada sequência de ações, em determinada quantidade de vezes
+//repeat(vezes){
+//ação
+//}
+/*
+repeat(7){
+   println("tartaruga ☺")
+*/
+
+
+// Exercício = exiba os números de 20 a 0 (nesta ordem) usando o laço repeat
+// boa sorte ♥
+
+var gustavoLima = 20
+repeat(21){
+  println(gustavoLima)
+  gustavoLima--
+}
+
+
+
+
+}
