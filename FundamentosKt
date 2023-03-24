@@ -139,7 +139,7 @@ if(sorvete > chocolate){
           println("-----O jogo será reiniciado -------")
     
        }  
-    
+   //....................................................................................................................... 
     
     // When - Quando...
     // Quando um determinado valor for verdadeiro, uma determinada ação 
