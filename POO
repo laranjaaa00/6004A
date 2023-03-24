@@ -1,1 +1,53 @@
 
+fun main() {
+    
+   var pessoa1 = Pessoa() //istanciamos um obj derivado da classe Pessoa
+   println(pessoa1.peso) //Exibir o valor de um parâmetro de um obj
+   pessoa1.peso = 55.0 //Edição do valor de um atributo
+   println(pessoa1.peso)
+   pessoa1.nome = "matuê" //Criação de valor de um atributo
+   println(pessoa1.nome) 
+}
+
+//POO - Programação Orientada a Objetos
+//
+//POO é uma representação virtual de atividade baseada no mundo real
+//
+// Objeto - é tudo que oculpa um determinado espaço e executa uma determinada atividade
+//
+//   . Estados- atributos, características, propiedades (nome, idade, altra...)
+//   . Comportamentos - atividades, tarefas, funções (andar, correr, come, beber, dormir..)
+//
+// Classes - Modelo que serve para a construção de objs derivados dele mesmo
+//   . Heranças - obejetos erdam atributos das classes
+//
+class Pessoa(){
+    //criação de atributos para a classe Pessoa
+    var nome = ""
+    var idade = 0
+    var altura = 1.90
+    var peso = 30.0
+    var nacionalismo = "Italiano"
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+   
