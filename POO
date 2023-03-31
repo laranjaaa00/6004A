@@ -47,7 +47,132 @@ class Pessoa(){
 
 
 
+//..................................................................................................................
 
 
+ fun main() {
+    /*
+    /*val pessoa1 = Pessoa() //criando um obj
+    //println(pessoa1.altura) //exibir u atributo de um obj
+    println(pessoa1.nome)
+    pessoa1.nome = "Jóse" //alterando o atributo de um obj
+    println(pessoa1.nome)
+    pessoa1.altura = 3.10
+    pessoa1.nacionalidade = "colombiano"
+    pessoa1.peso = 25.39
+    pessoa1.idade = 27
+    println("${pessoa1.altura}, ${pessoa1.peso}, ${pessoa1.nacionalidade}, ${pessoa1.idade}, ${pessoa1.nome}")
+    
+    // Exercício - faça a lista de convidados para a 
+    // formatura do primário usando objetos e 
+    // reutilizando a classe Pessoa()
+    // apresente o nome, a idade, o peso a altura,
+    // a nacionalidade deles para a segurança do evento
+    // no minimo 5 convidados
+    class Pessoa(){
+    //criação de atributos para a classe Pessoa
+    var nome = "Junior"
+    var idade = 5
+    var altura = 1.30
+    var peso = 30.0
+    var nacionalidade = "jamaicano"
+       
+   }*/ 
+val pessoa2 = Pessoa()
+//println(pessoa2.nome)
+//println(pessoa2.altura)
+ //println(pessoa2.idade)  
+ pessoa2.nome = "Junior"
+ pessoa2.idade = 15
+ pessoa2.altura = 1.70
+ pessoa2.peso = 50.0
+println("${pessoa2.altura}, ${pessoa2.peso}, ${pessoa2.nacionalidade}, ${pessoa2.idade}, ${pessoa2.nome}")
+//println(pessoa2.nome)
+//pessoa1.nome = "Junior"
 
-   
+
+//println(pessoa3.nome)
+//println(pessoa3.altura)
+ //println(pessoa3.idade)//
+ val pessoa3 = Pessoa() 
+ pessoa3.nome = "arnaldo"
+ pessoa3.idade = 17
+ pessoa3.altura = 1.76
+ pessoa3.nacionalidade = "angolano" 
+ pessoa3.peso = 84.0
+println("${pessoa3.altura}, ${pessoa3.peso}, ${pessoa3.nacionalidade}, ${pessoa3.idade}, ${pessoa3.nome}")
+//println(pessoa3.nome)
+//pessoa3.nome = "Junior"
+
+
+ val pessoa4 = Pessoa()
+ pessoa4.nome = "alex"
+ pessoa4.idade = 19
+ pessoa4.altura = 1.90
+ pessoa4.nacionalidade = "paulista" 
+ pessoa4.peso = 87.0
+println("${pessoa4.altura}, ${pessoa4.peso}, ${pessoa4.nacionalidade}, ${pessoa4.idade}, ${pessoa4.nome}")
+
+  
+ val pessoa5 = Pessoa()
+ pessoa5.nome = "chirlei"
+ pessoa5.idade = 10
+ pessoa5.altura = 1.0
+ pessoa5.nacionalidade = "chilena"  
+ pessoa5.peso = 69.0
+println("${pessoa5.altura}, ${pessoa5.peso}, ${pessoa5.nacionalidade}, ${pessoa5.idade}, ${pessoa5.nome}")
+
+val pessoa6 = Pessoa()
+ pessoa6.nome = "napolion"
+ pessoa6.idade = 13
+ pessoa6.altura = 1.67
+ pessoa6.nacionalidade = "grego"   
+ pessoa6.peso = 55.0
+println("${pessoa6.altura}, ${pessoa6.peso}, ${pessoa6.nacionalidade}, ${pessoa6.idade}, ${pessoa6.nome}")
+*/
+
+
+val o1 = Bolo("Morango", "2m", "amendoim", 120.00 "1000 morangos", true)
+print(" Meu bolo é de ${bolo1.sabor} e tem ${bolo1.tamanho},o recheio dele é de ${bolo1.recheio}, a cobertura dele é de")
+println("${bolo1.cobertura}, ele custa R$${bolo1.preco}, em seu complemento tem ${bolo1.complemento}. se ele tá pronto?${bolo1.pronto}")
+/*
+val pessoa2 = Pessoa()
+println(pessoa2.altura)
+*/
+
+} 
+
+   class Pessoa(){
+    //criação de atributos para a classe Pessoa
+    var nome = ""
+    var idade = 0
+    var altura = 1.90
+    var peso = 30.0
+    var nacionalidade = "Italiano" 
+}
+  
+  class Bolo(val sabor: String, 
+             val tamanho: String,
+             val recheio: String, 
+             val cobertura: String,
+             val preco: Double,
+             val complemento: String,
+             val pronto: Boolean){
+  
+}
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+    
