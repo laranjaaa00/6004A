@@ -31,3 +31,93 @@ println("O Messi já ganhou " + messiGoldenBall + " vezes a bola de Ouro. Ankara
 println("O messi já ganho $messiGoldenBall vezes a Bola de Ouro. Ankara Messi")    
     
 }
+
+
+
+///88##########################################
+
+
+
+fun main() {
+   
+    var usuario = ContaBanco(-100.0, 1456156754784564156, 5018)
+ usuario.consultarSaldo(5018)
+ usuario.deposito(5018, 2.0)
+ usuario.consultarSaldo(5018)
+ usuario.saque(5018, 20.0)
+}
+
+
+
+
+
+ class ContaBanco(var saldo: Double, var numeroConta: Long, var senhaCorreta: Int){
+
+   fun consultarSaldo(senha: Int){ 
+    
+    
+    
+   if(senha == senhaCorreta){
+        println("Saldo: R$saldo")
+    }else{ 
+        println("Senha incorreta")
+         }
+   }
+
+   fun deposito(senha: Int, valor: Double){
+       
+       if(senha == senhaCorreta){
+          if(valor <= 0){
+              println("depósito de R$$valor impossivel de ser realizado")
+          }else{ 
+              saldo += valor
+           println("depósito de R$$valor realizadocom sucesso")
+          
+          }
+         
+          
+    }else{ 
+        println("Senha incorreta")
+       
+    
+       }
+   
+   }
+  
+ 
+ 
+ //exercício -> Faça o método de sacar na conta do banco
+ //
+ //
+
+fun saque(senha: Int, valor: Double){
+
+ if(senha == senhaCorreta){
+          if(valor <= 0){
+              println("saque de R$$valor impossivel de ser realizado")
+          }else if(valor > saldo){
+              println("saque de R$$valor realizado com sucesso ☺")
+               }else{ 
+              saldo -= valor
+           println("depósito de R$$valor realizadocom sucesso")
+          
+          }
+         
+          
+    }else{ 
+        println("Senha incorreta")
+       
+    
+       }
+
+
+}
+ }
+
+
+
+
+
+
+
+
